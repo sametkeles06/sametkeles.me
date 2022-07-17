@@ -1,0 +1,261 @@
+@media screen and (max-width: 1250px) {
+    img.profile-photo {
+        width: 250px;
+        height: 100%;
+        margin-top: 10%;
+    }
+
+    h1.title-name {
+        font-size: 32px;
+    }
+
+    h1.experiance {
+        font-size: 20px;
+    }
+
+    a.button-left {
+        width: 210px;
+        height: 40px;
+        padding: 10px 0px;
+        font-size: 13.5px;
+    }
+
+    i.social-icon {
+        font-size: 34px;
+        width: 28px;
+    }
+
+    h1.title-about {
+        font-size:45px;
+    }
+
+    p.about-me {
+        font-size:medium;
+    }
+
+    a.button-right {
+        padding: 11px 55px;
+        font-size: 12px;
+    }
+
+    div.col-p {
+        margin-top: 13%;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+    
+    div.col-r {
+        margin-top: 13%;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+ 
+    a.footer-brand {
+        font-size: smaller;
+    }
+
+    img.footer-logo {
+        width: 18px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    img.profile-photo {
+        width: 200px;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    h1.title-name {
+        font-size: 26px;
+    }
+
+    h1.experiance {
+        font-size: 15px;
+    }
+
+    a.button-left {
+        width: 174px;
+        height: 32px;
+        padding: 8px 0px;
+        font-size: 11.5px;
+    }
+
+    i.social-icon {
+        font-size: 24px;
+        width: 15px;
+    }
+
+    h1.title-about {
+        font-size:34px;
+    }
+
+    p.about-me {
+        font-size:smaller;
+    }
+
+    a.button-right {
+        padding: 9px 45px;
+        font-size: 10px;
+    }
+
+    div.col-p {
+        margin-top: 10%;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+    
+    div.col-r {
+        margin-top: 10%;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+ 
+    a.footer-brand {
+        font-size: xx-small;
+    }
+
+    img.footer-logo {
+        width: 12px;
+    }
+}
+
+@font-face {
+font-family: clearSansBold;
+src: url(/assets/fonts/ClearSans-Bold.ttf);
+    }
+
+@font-face {
+font-family: clearSansRegular;
+src: url(/assets/fonts/ClearSans-Regular.ttf);
+    }
+
+.bg-grey {
+    background-color: #edf0f2;
+}
+
+.profile-photo {
+    width: 285px;
+    height: 100%;
+    margin-top: 14%;
+}
+
+.title-name {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 7%;
+}
+.experiance {
+    font-family: clearSansBold;
+    text-align: center;
+    font-size: 23px;
+    color: #000000;
+    margin-top: 1%;
+}
+
+.button-left {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    width: 262px;
+    height: 48px;
+    padding: 13px 0px;
+    font-family: 'clearSansBold';
+    font-size: 14.26px;
+    margin-top: 5%;
+}
+
+.button-left:hover {
+    color: #ffffff;
+}
+
+.social {
+    justify-content: center;
+    margin: 7% 0%;
+}
+
+.social li {
+    border-style: none;
+}
+
+.social-icon {
+    font-size: 40px;
+    color: #000000;
+}
+
+.right-row {
+    margin: 24% 9%;
+}
+
+.title-about {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-size:55px;
+    color: #000000;
+    letter-spacing: -0.5px;
+}
+
+.about-me {
+    margin-top: 8%;
+    font-family: clearSansRegular;
+    text-align: center;
+    font-size: large;
+    color: #000000;
+}
+
+.button-right {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 13px 70px;
+    font-family: 'clearSansBold';
+    font-size: 14.26px;
+}
+
+.button-right:hover {
+    color: #ffffff;
+}
+
+.col-p {
+    margin-top: 21.8%;
+}
+
+.col-r {
+    margin-top: 21.8%;
+}
+
+
+.btn-resume {
+    float: left;
+    margin: 0px;
+}
+
+.btn-portfolio {
+    float: right;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: #000000;
+    height:45px;
+
+}
+
+.footer-brand {
+    font-size: small;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-brand:hover{
+    color: #ffffff;
+}
+
